@@ -1,6 +1,22 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background: url("https://cdn.dribbble.com/users/2458996/screenshots/8214653/media/0ffd5a37ec3379ccb089416cd1d09840.gif")
+    center no-repeat;
+  background-size: auto 170%; /* 이미지의 높이는 80%, 너비는 자동으로 설정 */
 }
+
+/* img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100vh;
+  width: auto;
+  height: 30%;
+  z-index: -1;
+} */
 
 .App-logo {
   height: 40vmin;
