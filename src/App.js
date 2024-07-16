@@ -1,8 +1,8 @@
 import React, { useReducer, useRef, useCallback, useMemo } from "react";
 import "./App.css";
 import Header from "./components/Header";
-// import TodoEditor from "./components/TodoEditor";
-// import TodoList from "./components/TodoList";
+import TodoEditor from "./components/TodoEditor";
+import TodoList from "./components/TodoList";
 
 // export const TodoStateContext = React.createContext();
 // export const TodoDispatchContext = React.createContext();
@@ -83,10 +83,10 @@ function App() {
     <div className="App">
       <Header />
       {/* <TodoStateContext.Provider value={{ todo }}>
-        <TodoDispatchContext.Provider value={memoizedDispathes}>
-          <TodoEditor />
-          <TodoList />
-        </TodoDispatchContext.Provider>
+        <TodoDispatchContext.Provider value={memoizedDispathes}> */}
+      <TodoEditor />
+      <TodoList />
+      {/* </TodoDispatchContext.Provider>
       </TodoStateContext.Provider> */}
     </div>
   );
